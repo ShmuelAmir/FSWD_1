@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
     <title>Magical Animal Kingdom | Contact</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- copy header and footer from home -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="animals.html">Animals</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="index.html" class="logo">Logo</a>
+      </nav>
+    </header>
     <main>
-        <form action=""></form>
+      <form action="">
+        <div class="form-header">
+          <h2>Contact As</h2>
+        </div>
+        <div class="form-content">
+          <div class="form-input">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div class="form-input">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" />
+          </div>
+          <div class="form-input">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="10"></textarea>
+          </div>
+        </div>
+        <div class="form-footer">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+      <!-- google maps -->
+      <!-- <iframe src="" frameborder="0"></iframe> -->
     </main>
-</body>
+  </body>
 </html>

@@ -1,52 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-  padding: 1em 2em;
-  background-color: rgba(255, 255, 255, 0.4);
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-ul {
-  display: flex;
-  gap: 4em;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.logo {
-  font-size: 2rem;
-  color: rgb(17, 11, 134);
-}
-
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url("../assets/hero.jpg");
@@ -73,13 +24,13 @@ nav a:hover {
   outline: 0;
   display: inline-block;
   padding: 1em 2em;
-  background-color: #ddd;
+  background-color: rgb(221, 221, 221);
   text-align: center;
   cursor: pointer;
   border-radius: 1em;
+  transition: background-color 150ms ease-in;
 }
 
 .hero-text .btn:hover {
-  background-color: #555;
-  color: white;
+  background-color: rgba(221, 221, 221, 0.8);
 }
