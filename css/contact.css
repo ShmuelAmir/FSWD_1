@@ -1,0 +1,51 @@
+body {
+  background-color: aliceblue;
+}
+
+main {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+input,
+textarea {
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 3px;
+  min-height: 3em;
+  min-width: 25em;
+  padding: 0.5em 1em;
+  background-color: aliceblue;
+}
+
+label {
+  font-size: 0.85rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1.5em 2.15em;
+  border-radius: 2em;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+}
