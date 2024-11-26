@@ -10,27 +10,29 @@
   place-content: center;
 }
 
-.hero-text {
+.hero-content {
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
+  gap: 2rem;
+  max-width: 70ch;
 }
 
-.hero-text .btn {
-  font-size: 1rem;
-  border: none;
-  outline: 0;
+.hero-content h1 {
+  font-size: 5rem;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.arrow {
   display: inline-block;
-  padding: 1em 2em;
-  background-color: rgb(221, 221, 221);
-  text-align: center;
-  cursor: pointer;
-  border-radius: 1em;
-  transition: background-color 150ms ease-in;
+  transition: transform 100ms ease-in-out;
 }
 
-.hero-text .btn:hover {
-  background-color: rgba(221, 221, 221, 0.8);
+.btn:hover .arrow {
+  transform: translateX(4px);
 }

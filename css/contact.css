@@ -1,11 +1,19 @@
-body {
-  background-color: aliceblue;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  min-height: 100vh;
 }
 
-main {
-  display: grid;
-  place-content: center;
-  min-height: 100vh;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1.5em 2.15em;
+  border-radius: 2em;
 }
 
 input,
@@ -23,16 +31,6 @@ label {
   font-size: 0.85rem;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 1.5em 2.15em;
-  border-radius: 2em;
-}
-
 .form-input {
   display: flex;
   flex-direction: column;
@@ -48,4 +46,25 @@ form {
 .form-footer {
   display: flex;
   justify-content: flex-end;
+}
+
+.map {
+  padding: 1em;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 1250px) {
+  .container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1500px) {
+  .container {
+    margin-block: 7rem;
+    flex-wrap: wrap;
+  }
 }

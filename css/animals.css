@@ -1,0 +1,40 @@
+.background {
+  height: fit-content;
+  width: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  position: relative;
+  display: grid;
+  place-content: center;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  height: fit-content;
+  width: 100vw;
+  padding: 10px;
+  padding-top: 70px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.animal-image {
+  height: 60%;
+  aspect-ratio: 6 / 4;
+  object-fit: cover;
+}
+
+h1 {
+  text-align: center;
+}
