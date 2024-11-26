@@ -21,40 +21,50 @@
       </nav>
     </header>
     <main>
-      <form action="">
-        <div class="form-header">
-          <h2>Contact As</h2>
-        </div>
-        <div class="form-content">
-          <div class="form-input">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" />
+      <div class="container">
+        <form action="">
+          <div class="form-header">
+            <h2>Contact As</h2>
           </div>
-          <div class="form-input">
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" />
+          <div class="form-content">
+            <div class="form-input">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" />
+            </div>
+            <div class="form-input">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" />
+            </div>
+            <div class="form-input">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" rows="10"></textarea>
+            </div>
           </div>
-          <div class="form-input">
-            <label for="message">Message</label>
-            <textarea name="message" id="message" rows="10"></textarea>
+          <div class="form-footer">
+            <button class="btn" type="submit">Send</button>
           </div>
+        </form>
+        <!-- google maps -->
+        <div class="map">
+          <h2>Navigate</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3392.889223568834!2d35.17476307631844!3d31.746224535947626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502d7d634ea0083%3A0x962f677af18333fc!2sThe%20Tisch%20Family%20Zoological%20Gardens%20in%20Jerusalem!5e0!3m2!1sen!2sil!4v1732562402772!5m2!1sen!2sil"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
-        <div class="form-footer">
-          <button class="btn" type="submit">Send</button>
+        <div class="map">
+          <embed
+            src="../assets/zoo_info.pdf"
+            type="application/pdf"
+            width="500"
+            height="480"
+          />
         </div>
-      </form>
-      <!-- google maps -->
-      <div class="map">
-        <h2>Navigate</h2>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3392.889223568834!2d35.17476307631844!3d31.746224535947626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502d7d634ea0083%3A0x962f677af18333fc!2sThe%20Tisch%20Family%20Zoological%20Gardens%20in%20Jerusalem!5e0!3m2!1sen!2sil!4v1732562402772!5m2!1sen!2sil"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
       </div>
     </main>
   </body>
