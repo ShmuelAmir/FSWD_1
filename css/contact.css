@@ -1,13 +1,19 @@
-body {
-  background-color: aliceblue;
-}
-
 main {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5rem;
   min-height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1.5em 2.15em;
+  border-radius: 2em;
 }
 
 input,
@@ -23,16 +29,6 @@ textarea {
 
 label {
   font-size: 0.85rem;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 1.5em 2.15em;
-  border-radius: 2em;
 }
 
 .form-input {
