@@ -44,6 +44,10 @@ a {
   text-decoration: none;
 }
 
+a.active {
+  color: rgb(var(--primary-color));
+}
+
 nav a:hover {
   text-decoration: underline;
 }
