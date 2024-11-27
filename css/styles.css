@@ -57,6 +57,12 @@ nav a:hover {
   color: rgb(17, 11, 134);
 }
 
+.logo-image {
+  width: 1.2em;
+  image-rendering: crisp-edges;
+  object-fit: contain;
+}
+
 .btn {
   background-color: rgb(var(--primary-color));
   border: none;
