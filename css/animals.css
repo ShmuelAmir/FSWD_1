@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth; /* scroll smoothly on inner links*/
+}
+
+
 .grid-container {
   display: flex;
   justify-content: space-evenly;
@@ -6,10 +11,11 @@
 }
 
 body {
-  margin: 0; /* Remove default margins for clean transitions */
+  margin: 0;
   height: 100%;
 }
 
+/* styles for introductions at the top*/
 .introduction {
   padding-top: 5em;
   min-height: 100vh;
@@ -18,10 +24,11 @@ body {
   justify-content: center;
   align-items: center;
   background-color: blueviolet;
-  color: white;
+  color: white; /* text color*/
 }
 
-.background {
+/* container for our gallery content */
+.animals {
   background-color: orangered;
 }
 
@@ -32,6 +39,7 @@ table {
   font-family: Arial, sans-serif;
 }
 
+/* styles for rows*/
 tbody tr {
   cursor: pointer; /* Makes the cursor a pointer on hover */
   transition: background-color 0.3s ease; /* Smooth transition for hover effect */
@@ -39,8 +47,8 @@ tbody tr {
 
 /* Table header style */
 th {
-  background-color: #f4a261; /* Light orange */
-  border: 1px solid #f4a261;
+  background-color: lightsalmon; /* Light orange */
+  border: 1px solid lightsalmon;
   color: white;
   padding: 10px;
   text-align: left;
@@ -54,23 +62,12 @@ td {
 
 /* Alternate row background */
 tr:nth-child(even) {
-  background-color: #b21a6e;
+  background-color: #b21a6e; 
 }
 
 /* Row hover effect */
 tr:hover {
-  background-color: #f7d1a9; /* Light peach for hover */
-}
-
-/* Optional: Add underline to make it look like links */
-tr:hover td a {
-text-decoration: underline;
-}
-
- /* Link style for inside the table */
- td a {
-  text-decoration: none;
-  color: inherit; /* Inherits the row color */
+  background-color: #f7d1a9;
 }
 
 
