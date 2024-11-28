@@ -47,8 +47,8 @@ tbody tr {
 
 /* Table header style */
 th {
-  background-color: lightsalmon; /* Light orange */
-  border: 1px solid lightsalmon;
+  background-color: #f4a261; /* Light orange */
+  border: 1px solid #f4a261;
   color: white;
   padding: 10px;
   text-align: left;
