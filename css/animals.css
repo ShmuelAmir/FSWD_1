@@ -6,12 +6,79 @@
 }
 
 body {
-  background-color: aqua;
+  margin: 0; /* Remove default margins for clean transitions */
   height: 100%;
 }
 
-.background {
+.introduction {
   padding-top: 5em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  color: white;
+}
+
+.background {
+  background-color: orangered;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+tbody tr {
+  cursor: pointer; /* Makes the cursor a pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Table header style */
+th {
+  background-color: #f4a261; /* Light orange */
+  border: 1px solid #f4a261;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Table cell style */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Alternate row background */
+tr:nth-child(even) {
+  background-color: #b21a6e;
+}
+
+/* Row hover effect */
+tr:hover {
+  background-color: #f7d1a9; /* Light peach for hover */
+}
+
+/* Optional: Add underline to make it look like links */
+tr:hover td a {
+text-decoration: underline;
+}
+
+ /* Link style for inside the table */
+ td a {
+  text-decoration: none;
+  color: inherit; /* Inherits the row color */
+}
+
+
+
+/* Add some space around the table */
+.table-container {
+  padding: 20px;
+  display: flex;
 }
 
 .grid-item {
@@ -62,4 +129,15 @@ p1{
   margin: 2em;
   margin-bottom: 1em;
   margin-top: 1em;
+}
+
+p2{
+  text-align:justify;
+  text-justify:inter-word;
+  display: block;
+  font-size: larger;
+  text-emphasis: none;
+  margin: clamp(2em, 10%, 12em);
+  margin-bottom: 1em;
+  margin-top: 0.2em;
 }
