@@ -1,20 +1,17 @@
-.container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  place-content: center;
-  gap: 5rem;
-  min-height: 100vh;
-  background-color: rgba(var(--primary-color), 0.3);
+section {
+  padding: 1em;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 form {
   display: flex;
   flex-direction: column;
   gap: 2em;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 1.5em 2.15em;
-  border-radius: 2em;
 }
 
 input,
@@ -32,6 +29,15 @@ label {
   font-size: 0.85rem;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  place-content: center;
+  gap: 5rem;
+  min-height: 100vh;
+  background-color: blueviolet;
+}
+
 .form-input {
   display: flex;
   flex-direction: column;
@@ -47,15 +53,6 @@ label {
 .form-footer {
   display: flex;
   justify-content: flex-end;
-}
-
-.card {
-  padding: 1em;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (max-width: 1700px) {
