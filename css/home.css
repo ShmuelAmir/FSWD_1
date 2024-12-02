@@ -36,3 +36,10 @@
 .btn:hover .arrow {
   transform: translateX(4px);
 }
+
+.media-container {
+  margin-top: 100vh;
+  width: 100vw;
+  background-color: bisque;
+  position: relative;
+}

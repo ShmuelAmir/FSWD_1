@@ -82,3 +82,14 @@ nav a:hover {
   font-size: 1rem;
   padding: 1em 2em;
 }
+
+footer {
+  padding: 0.5em;
+  background-color: burlywood;
+  align-items: center;
+  min-width: 100%;
+}
+
+footer p {
+  text-align: center;
+}

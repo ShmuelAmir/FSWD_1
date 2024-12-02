@@ -79,7 +79,7 @@ tr:hover {
 
 /* container for our gallery content */
 .animals {
-  background-color: orangered;
+  background-color: rgb(222, 222, 145);
   padding: 35px 20px;
 }
 
