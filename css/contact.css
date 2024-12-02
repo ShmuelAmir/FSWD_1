@@ -111,6 +111,6 @@ label {
 @media (max-width: 1300px) {
   .container {
     grid-template-rows: auto auto auto;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: auto ;
   }
 }
